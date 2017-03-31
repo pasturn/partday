@@ -1,0 +1,27 @@
+<view class="container">
+  <view id="{{objectId}}" class="item-box">
+    <image src="{{detail.imageSrc}}" class="item-cover" mode="aspectFill"></image>
+    <view class="item-top">
+      <text class="item-title">{{detail.title}}</text>
+    </view>
+    <view class="item-bottom">
+        <text class="item-tip">{{detail.province == detail.city ?detail.province : detail.province + ' ' + detail.city}}</text>
+        <text class="item-tip">{{detail.address}}</text>
+        <text class="item-tip">{{detail.startDate}} ~ {{detail.endDate}}</text>
+        <text class="item-tip">{{detail.fee}}</text>
+    </view>
+    <view class="item-body">
+        <view class="item-body-title">
+            <text>漫展详情</text>
+        </view>
+        <view class="item-body-text">
+            <text>{{detail.content}}</text>
+        </view>
+    </view>
+  </view>
+  <view class="footer">
+    <text>
+        © 2017 Catcut 猫切.
+    </text>
+  </view>
+</view>

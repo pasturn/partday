@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view id="{{item.objectId}}" class="item-box"  bindtap="bindViewTap" wx:for="{{expolist}}" wx:for-item="item" wx:key="objectId">
+    <image src="{{item.imageSrc}}" class="item-cover" mode="aspectFill"></image>
+    <view class="item-top">
+      <text class="item-title">{{item.title}}</text>
+    </view>
+    <view class="item-bottom" hover-class="item-bottom-hover">
+        <text class="item-tip">{{item.province == item.city ?item.province : item.province + ' ' + item.city}}</text>
+        <text class="item-tip">{{item.address}}</text>
+        <text class="item-tip">{{item.startDate}} ~ {{item.endDate}}</text>
+        <text class="item-tip">{{item.fee}}</text>
+    </view>
+  </view>
+</view>
+<view class="spinner" wx:if="{{loading}}">
+  <view class="double-bounce1"></view>
+  <view class="double-bounce2"></view>
+</view>
