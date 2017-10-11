@@ -1,5 +1,5 @@
 ## 漫展日
-![qrcode](http://otbykn5f6.bkt.clouddn.com/gh_fc0a6097e508_258.jpg)
+<img alt="Omi" src="http://otbykn5f6.bkt.clouddn.com/gh_fc0a6097e508_258.jpg"></a>
 ### 初始化项目
 ```
 git clone https://github.com/pasturn/partday.git
