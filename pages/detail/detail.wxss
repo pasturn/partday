@@ -11,10 +11,13 @@
     color: #AAAAAA;
 }
 .item-body-text{
-    padding: 40rpx 0;
+    padding: 20rpx 0 40rpx 0;
     font-size: 24rpx;
     line-height: 2;
     color: #333333;
+}
+.item-body-map{
+  padding-bottom: 20rpx;
 }
 .footer{
     position: fixed;

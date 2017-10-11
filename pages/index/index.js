@@ -45,7 +45,7 @@ Page({
               const _item = item.toJSON()
               return {
                 objectId: _item.objectId,
-                imageSrc: _item.imageSrc || '',
+                imageSrc: _item.thumbnailUrl || _item.thumbnilUrl || '',
                 title: _item.title || '',
                 province: _item.province || '',
                 city: _item.city || '',
