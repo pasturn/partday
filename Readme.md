@@ -4,11 +4,12 @@
 ```
 git clone https://github.com/pasturn/partday.git
 ```
+使用微信开发者工具导入项目文件
 
 >程序内未包含相关密钥，请私下索要。
 
 ### 小程序开发资源
-使用微信开发者工具导入项目文件
+
 
 [微信小程序开发文档][wxdoc](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
 
